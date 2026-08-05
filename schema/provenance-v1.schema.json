@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/xakian/xakian-provenance/blob/main/schema/provenance-v1.schema.json",
+  "title": "XAKIAN provenance record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "recordId",
+    "project",
+    "dates",
+    "source",
+    "contentFingerprint",
+    "deployment"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": "1.0" },
+    "recordId": { "type": "string", "minLength": 1 },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "version"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceCommittedAt", "firstPublishedOn", "recordedAt"],
+      "properties": {
+        "sourceCommittedAt": { "type": "string", "format": "date-time" },
+        "firstPublishedOn": { "type": "string", "format": "date" },
+        "recordedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repository", "visibilityAtRecordTime", "commit", "tree"],
+      "properties": {
+        "repository": { "type": "string", "format": "uri" },
+        "visibilityAtRecordTime": { "enum": ["private", "public"] },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "tree": { "type": "string", "pattern": "^[0-9a-f]{40}$" }
+      }
+    },
+    "contentFingerprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["algorithm", "digest", "input"],
+      "properties": {
+        "algorithm": { "const": "sha256" },
+        "digest": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "input": { "type": "string", "minLength": 1 }
+      }
+    },
+    "deployment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "productionUrl"],
+      "properties": {
+        "provider": { "type": "string", "minLength": 1 },
+        "productionUrl": { "type": "string", "format": "uri" },
+        "deploymentUrl": { "type": "string", "format": "uri" },
+        "deploymentUrlNote": { "type": "string" }
+      }
+    },
+    "legacyArchive": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chatgptSiteRetained", "tag", "commit"],
+      "properties": {
+        "chatgptSiteRetained": { "type": "boolean" },
+        "tag": { "type": "string", "minLength": 1 },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" }
+      }
+    }
+  }
+}

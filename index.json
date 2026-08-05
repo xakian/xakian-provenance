@@ -1,0 +1,15 @@
+{
+  "$schema": "./schema/provenance-index-v1.schema.json",
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-08-05T04:51:27.248Z",
+  "records": [
+    {
+      "recordId": "function-morphing-laboratory-v1.0.0",
+      "projectId": "function-morphing-laboratory",
+      "version": "1.0.0",
+      "publishedOn": "2026-08-05",
+      "record": "records/function-morphing-laboratory/v1.0.0.json",
+      "sha256": "9299b646522de4c8e10289b1bf43e1eded982ef9df8e372c6ba86c98f343b9a7"
+    }
+  ]
+}

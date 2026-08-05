@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "function-morphing-laboratory-v1.0.0",
+  "project": {
+    "id": "function-morphing-laboratory",
+    "title": "Function Morphing Laboratory",
+    "version": "1.0.0"
+  },
+  "dates": {
+    "sourceCommittedAt": "2026-08-05T11:19:49+08:00",
+    "firstPublishedOn": "2026-08-05",
+    "recordedAt": "2026-08-05T04:51:27.248Z"
+  },
+  "source": {
+    "repository": "https://github.com/xakian/function-morphing-laboratory",
+    "visibilityAtRecordTime": "private",
+    "commit": "3884e415f04b8b52fb92b26b87a9c025623d05b4",
+    "tree": "c5044013128107c4dc7b139c6f2010694a3535d3"
+  },
+  "contentFingerprint": {
+    "algorithm": "sha256",
+    "digest": "9299b646522de4c8e10289b1bf43e1eded982ef9df8e372c6ba86c98f343b9a7",
+    "input": "git archive --format=tar 3884e415f04b8b52fb92b26b87a9c025623d05b4"
+  },
+  "deployment": {
+    "provider": "Vercel",
+    "productionUrl": "https://function-morphing-laboratory.vercel.app",
+    "deploymentUrl": "https://function-morphing-laboratory-hqphdoxxt-xakian.vercel.app",
+    "deploymentUrlNote": "Version-specific deployment URL while retained by the provider."
+  },
+  "legacyArchive": {
+    "chatgptSiteRetained": true,
+    "tag": "chatgpt-site-v15",
+    "commit": "603ff0ae84128b3f7fbe56a54c293421ddefb7b0"
+  }
+}
