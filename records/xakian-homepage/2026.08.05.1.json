@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "xakian-homepage-2026.08.05.1",
+  "project": {
+    "id": "xakian-homepage",
+    "title": "XAKIAN",
+    "version": "2026.08.05.1"
+  },
+  "dates": {
+    "sourceCommittedAt": "2026-08-05T12:55:25+08:00",
+    "publishedOn": "2026-08-05",
+    "recordedAt": "2026-08-05T04:55:48.737Z"
+  },
+  "source": {
+    "repository": "https://github.com/xakian/xakian",
+    "visibilityAtRecordTime": "private",
+    "commit": "713aaa7b20d2cad90da9e488ea1213aa07c932a1",
+    "tree": "9914d24a38e0735f4a3f173655309e6bda563f7f"
+  },
+  "contentFingerprint": {
+    "algorithm": "sha256",
+    "digest": "f94dc02613ff0062df22c56210b7ebc831e5e04e3c81b533bc50de762f58889d",
+    "input": "git archive --format=tar 713aaa7b20d2cad90da9e488ea1213aa07c932a1"
+  },
+  "deployment": {
+    "provider": "Vercel",
+    "productionUrl": "https://xakian.vercel.app"
+  }
+}

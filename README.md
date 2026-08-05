@@ -10,6 +10,7 @@ dated public trail without publishing the source code itself.
 ## Records
 
 - [Function Morphing Laboratory v1.0.0](records/function-morphing-laboratory/v1.0.0.json)
+- [XAKIAN homepage 2026.08.05.1](records/xakian-homepage/2026.08.05.1.json)
 
 The machine-readable list is in [`index.json`](index.json). Record files follow
 [`schema/provenance-v1.schema.json`](schema/provenance-v1.schema.json).

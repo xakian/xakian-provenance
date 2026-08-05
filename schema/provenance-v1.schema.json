@@ -31,10 +31,10 @@
     "dates": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["sourceCommittedAt", "firstPublishedOn", "recordedAt"],
+      "required": ["sourceCommittedAt", "publishedOn", "recordedAt"],
       "properties": {
         "sourceCommittedAt": { "type": "string", "format": "date-time" },
-        "firstPublishedOn": { "type": "string", "format": "date" },
+        "publishedOn": { "type": "string", "format": "date" },
         "recordedAt": { "type": "string", "format": "date-time" }
       }
     },

@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/provenance-index-v1.schema.json",
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-05T04:51:27.248Z",
+  "updatedAt": "2026-08-05T04:55:48.737Z",
   "records": [
     {
       "recordId": "function-morphing-laboratory-v1.0.0",
@@ -10,6 +10,14 @@
       "publishedOn": "2026-08-05",
       "record": "records/function-morphing-laboratory/v1.0.0.json",
       "sha256": "9299b646522de4c8e10289b1bf43e1eded982ef9df8e372c6ba86c98f343b9a7"
+    },
+    {
+      "recordId": "xakian-homepage-2026.08.05.1",
+      "projectId": "xakian-homepage",
+      "version": "2026.08.05.1",
+      "publishedOn": "2026-08-05",
+      "record": "records/xakian-homepage/2026.08.05.1.json",
+      "sha256": "f94dc02613ff0062df22c56210b7ebc831e5e04e3c81b533bc50de762f58889d"
     }
   ]
 }
