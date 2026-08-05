@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "cube-pose-boundary-lab-v1.0.0",
+  "project": { "id": "cube-pose-boundary-lab", "title": "Cube Pose Boundary Lab", "version": "1.0.0" },
+  "dates": { "sourceCommittedAt": "2026-08-05T11:03:14+08:00", "publishedOn": "2026-08-05", "recordedAt": "2026-08-05T05:27:57.737Z" },
+  "source": {
+    "repository": "https://github.com/xakian/cube-pose-boundary-lab",
+    "visibilityAtRecordTime": "private",
+    "commit": "f5120d420e0c074a05975e241aaefe77d570f118",
+    "tree": "abedd30cd6e14072fd1d549cc07c2a26a89270f3"
+  },
+  "contentFingerprint": { "algorithm": "sha256", "digest": "85d31eaaa0b3c2a7b680ca28e9d0c179d602553e6ec07a6f89a20b5579e7ea5b", "input": "git archive --format=tar f5120d420e0c074a05975e241aaefe77d570f118" },
+  "deployment": { "provider": "Vercel", "productionUrl": "https://cube-pose-boundary-lab.vercel.app" },
+  "signature": { "tag": "release-v1.0.0", "format": "ssh", "keyAlgorithm": "ED25519", "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk", "githubVerified": true, "githubVerifiedAt": "2026-08-05T05:27:35Z" }
+}

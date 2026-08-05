@@ -29,6 +29,14 @@
     "deploymentUrl": "https://function-morphing-laboratory-hqphdoxxt-xakian.vercel.app",
     "deploymentUrlNote": "Version-specific deployment URL while retained by the provider."
   },
+  "signature": {
+    "tag": "release-v1.0.0",
+    "format": "ssh",
+    "keyAlgorithm": "ED25519",
+    "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk",
+    "githubVerified": true,
+    "githubVerifiedAt": "2026-08-05T05:16:27Z"
+  },
   "legacyArchive": {
     "chatgptSiteRetained": true,
     "tag": "chatgpt-site-v15",

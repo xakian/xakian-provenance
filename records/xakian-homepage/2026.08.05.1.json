@@ -26,5 +26,13 @@
   "deployment": {
     "provider": "Vercel",
     "productionUrl": "https://xakian.vercel.app"
+  },
+  "signature": {
+    "tag": "xakian-2026.08.05.1",
+    "format": "ssh",
+    "keyAlgorithm": "ED25519",
+    "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk",
+    "githubVerified": true,
+    "githubVerifiedAt": "2026-08-05T05:16:27Z"
   }
 }

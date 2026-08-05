@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "layered-function-mapping-v1.0.0",
+  "project": { "id": "layered-function-mapping", "title": "Layered Function Mapping", "version": "1.0.0" },
+  "dates": { "sourceCommittedAt": "2026-08-05T09:53:57+08:00", "publishedOn": "2026-08-05", "recordedAt": "2026-08-05T05:27:57.737Z" },
+  "source": {
+    "repository": "https://github.com/xakian/multilayer-function-parallel-axis-visualizer",
+    "visibilityAtRecordTime": "private",
+    "commit": "e03c8bc634ae57f2ced736dcbb64eaace0f13317",
+    "tree": "66420548577615fd2fe5f1682a2f1cd1b2805ade"
+  },
+  "contentFingerprint": { "algorithm": "sha256", "digest": "9e9cf2796b6daa01f403c6f6f948e61146d1f994b948ea280a96b3af8caed968", "input": "git archive --format=tar e03c8bc634ae57f2ced736dcbb64eaace0f13317" },
+  "deployment": { "provider": "Vercel", "productionUrl": "https://multilayer-function-parallel-axis-v.vercel.app" },
+  "signature": { "tag": "release-v1.0.0", "format": "ssh", "keyAlgorithm": "ED25519", "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk", "githubVerified": true, "githubVerifiedAt": "2026-08-05T05:27:35Z" }
+}

@@ -12,7 +12,8 @@
     "dates",
     "source",
     "contentFingerprint",
-    "deployment"
+    "deployment",
+    "signature"
   ],
   "properties": {
     "$schema": { "type": "string" },
@@ -68,6 +69,19 @@
         "productionUrl": { "type": "string", "format": "uri" },
         "deploymentUrl": { "type": "string", "format": "uri" },
         "deploymentUrlNote": { "type": "string" }
+      }
+    },
+    "signature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tag", "format", "keyAlgorithm", "keyFingerprint", "githubVerified", "githubVerifiedAt"],
+      "properties": {
+        "tag": { "type": "string", "minLength": 1 },
+        "format": { "const": "ssh" },
+        "keyAlgorithm": { "const": "ED25519" },
+        "keyFingerprint": { "type": "string", "pattern": "^SHA256:[A-Za-z0-9+/=]+$" },
+        "githubVerified": { "const": true },
+        "githubVerifiedAt": { "type": "string", "format": "date-time" }
       }
     },
     "legacyArchive": {

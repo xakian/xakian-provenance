@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "three-variable-equation-fiber-lab-v1.0.0",
+  "project": { "id": "three-variable-equation-fiber-lab", "title": "Three-Variable Equation Fiber Lab", "version": "1.0.0" },
+  "dates": { "sourceCommittedAt": "2026-08-04T23:25:23+08:00", "publishedOn": "2026-08-05", "recordedAt": "2026-08-05T05:27:57.737Z" },
+  "source": {
+    "repository": "https://github.com/xakian/three-variable-equation-fiber-lab",
+    "visibilityAtRecordTime": "private",
+    "commit": "a73f23b52b0124faec813996d1dd74cbd8b88cfd",
+    "tree": "6b2418c194db3ba607e985b95e3ebccbb89408ed"
+  },
+  "contentFingerprint": { "algorithm": "sha256", "digest": "56ef72d9ac68d9f9c5bdd52695ca5329fb0b15bf044bf656dc0cd0310f6f586c", "input": "git archive --format=tar a73f23b52b0124faec813996d1dd74cbd8b88cfd" },
+  "deployment": { "provider": "Vercel", "productionUrl": "https://three-variable-equation-fiber-lab.vercel.app" },
+  "signature": { "tag": "release-v1.0.0", "format": "ssh", "keyAlgorithm": "ED25519", "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk", "githubVerified": true, "githubVerifiedAt": "2026-08-05T05:27:35Z" }
+}

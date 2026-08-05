@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/provenance-index-v1.schema.json",
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-05T04:55:48.737Z",
+  "updatedAt": "2026-08-05T05:27:57.737Z",
   "records": [
     {
       "recordId": "function-morphing-laboratory-v1.0.0",
@@ -9,7 +9,69 @@
       "version": "1.0.0",
       "publishedOn": "2026-08-05",
       "record": "records/function-morphing-laboratory/v1.0.0.json",
-      "sha256": "9299b646522de4c8e10289b1bf43e1eded982ef9df8e372c6ba86c98f343b9a7"
+      "sha256": "9299b646522de4c8e10289b1bf43e1eded982ef9df8e372c6ba86c98f343b9a7",
+      "tag": "release-v1.0.0",
+      "githubVerifiedAt": "2026-08-05T05:16:27Z"
+    },
+    {
+      "recordId": "cube-pose-boundary-lab-v1.0.0",
+      "projectId": "cube-pose-boundary-lab",
+      "version": "1.0.0",
+      "publishedOn": "2026-08-05",
+      "record": "records/cube-pose-boundary-lab/v1.0.0.json",
+      "sha256": "85d31eaaa0b3c2a7b680ca28e9d0c179d602553e6ec07a6f89a20b5579e7ea5b",
+      "tag": "release-v1.0.0",
+      "githubVerifiedAt": "2026-08-05T05:27:35Z"
+    },
+    {
+      "recordId": "mapping-geometry-lab-v1.0.0",
+      "projectId": "mapping-geometry-lab",
+      "version": "1.0.0",
+      "publishedOn": "2026-08-05",
+      "record": "records/mapping-geometry-lab/v1.0.0.json",
+      "sha256": "60aed661186a064bf09e8fa26213f5e5aad98e15f83ba8e4427f9e7680ba9339",
+      "tag": "release-v1.0.0",
+      "githubVerifiedAt": "2026-08-05T05:27:36Z"
+    },
+    {
+      "recordId": "cube-face-mapping-lab-v1.0.0",
+      "projectId": "cube-face-mapping-lab",
+      "version": "1.0.0",
+      "publishedOn": "2026-08-05",
+      "record": "records/cube-face-mapping-lab/v1.0.0.json",
+      "sha256": "931565216bbad4c7e767d5f3a2d5ca4d7c34b3c8f0ede4644fb42debc50cbcaa",
+      "tag": "release-v1.0.0",
+      "githubVerifiedAt": "2026-08-05T05:27:35Z"
+    },
+    {
+      "recordId": "three-variable-equation-fiber-lab-v1.0.0",
+      "projectId": "three-variable-equation-fiber-lab",
+      "version": "1.0.0",
+      "publishedOn": "2026-08-05",
+      "record": "records/three-variable-equation-fiber-lab/v1.0.0.json",
+      "sha256": "56ef72d9ac68d9f9c5bdd52695ca5329fb0b15bf044bf656dc0cd0310f6f586c",
+      "tag": "release-v1.0.0",
+      "githubVerifiedAt": "2026-08-05T05:27:35Z"
+    },
+    {
+      "recordId": "layered-function-mapping-v1.0.0",
+      "projectId": "layered-function-mapping",
+      "version": "1.0.0",
+      "publishedOn": "2026-08-05",
+      "record": "records/layered-function-mapping/v1.0.0.json",
+      "sha256": "9e9cf2796b6daa01f403c6f6f948e61146d1f994b948ea280a96b3af8caed968",
+      "tag": "release-v1.0.0",
+      "githubVerifiedAt": "2026-08-05T05:27:35Z"
+    },
+    {
+      "recordId": "dimensional-mapping-visualizer-v1.0.0",
+      "projectId": "dimensional-mapping-visualizer",
+      "version": "1.0.0",
+      "publishedOn": "2026-08-05",
+      "record": "records/dimensional-mapping-visualizer/v1.0.0.json",
+      "sha256": "528f658ac833e97add8ebc884e75bbfceab0b46e158490aac29e10ad7bb47368",
+      "tag": "release-v1.0.0",
+      "githubVerifiedAt": "2026-08-05T05:27:35Z"
     },
     {
       "recordId": "xakian-homepage-2026.08.05.1",
@@ -17,7 +79,9 @@
       "version": "2026.08.05.1",
       "publishedOn": "2026-08-05",
       "record": "records/xakian-homepage/2026.08.05.1.json",
-      "sha256": "f94dc02613ff0062df22c56210b7ebc831e5e04e3c81b533bc50de762f58889d"
+      "sha256": "f94dc02613ff0062df22c56210b7ebc831e5e04e3c81b533bc50de762f58889d",
+      "tag": "xakian-2026.08.05.1",
+      "githubVerifiedAt": "2026-08-05T05:16:27Z"
     }
   ]
 }

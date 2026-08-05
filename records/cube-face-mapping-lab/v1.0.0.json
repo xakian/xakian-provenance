@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "cube-face-mapping-lab-v1.0.0",
+  "project": { "id": "cube-face-mapping-lab", "title": "Cube Face Mapping Lab", "version": "1.0.0" },
+  "dates": { "sourceCommittedAt": "2026-08-04T22:47:46+08:00", "publishedOn": "2026-08-05", "recordedAt": "2026-08-05T05:27:57.737Z" },
+  "source": {
+    "repository": "https://github.com/xakian/cube-face-mapping-lab",
+    "visibilityAtRecordTime": "private",
+    "commit": "1cf6c650464d929039524d3aaa1f5d6fdad0cf77",
+    "tree": "a016bb0b3113f5e23b70dee25e948b0b09690f7f"
+  },
+  "contentFingerprint": { "algorithm": "sha256", "digest": "931565216bbad4c7e767d5f3a2d5ca4d7c34b3c8f0ede4644fb42debc50cbcaa", "input": "git archive --format=tar 1cf6c650464d929039524d3aaa1f5d6fdad0cf77" },
+  "deployment": { "provider": "Vercel", "productionUrl": "https://cube-face-mapping-lab.vercel.app" },
+  "signature": { "tag": "release-v1.0.0", "format": "ssh", "keyAlgorithm": "ED25519", "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk", "githubVerified": true, "githubVerifiedAt": "2026-08-05T05:27:35Z" }
+}

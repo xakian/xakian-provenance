@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "mapping-geometry-lab-v1.0.0",
+  "project": { "id": "mapping-geometry-lab", "title": "Mapping Geometry Lab", "version": "1.0.0" },
+  "dates": { "sourceCommittedAt": "2026-08-04T21:35:26+08:00", "publishedOn": "2026-08-05", "recordedAt": "2026-08-05T05:27:57.737Z" },
+  "source": {
+    "repository": "https://github.com/xakian/mapping-geometry-lab",
+    "visibilityAtRecordTime": "private",
+    "commit": "0eae9e2719e0629571e5cdec61f21d207f8d59c1",
+    "tree": "7e3a663dbdb4c94cf8f39bf678144a5e4a3834e0"
+  },
+  "contentFingerprint": { "algorithm": "sha256", "digest": "60aed661186a064bf09e8fa26213f5e5aad98e15f83ba8e4427f9e7680ba9339", "input": "git archive --format=tar 0eae9e2719e0629571e5cdec61f21d207f8d59c1" },
+  "deployment": { "provider": "Vercel", "productionUrl": "https://mapping-geometry-lab.vercel.app" },
+  "signature": { "tag": "release-v1.0.0", "format": "ssh", "keyAlgorithm": "ED25519", "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk", "githubVerified": true, "githubVerifiedAt": "2026-08-05T05:27:36Z" }
+}

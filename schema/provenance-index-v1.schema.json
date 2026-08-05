@@ -14,14 +14,16 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["recordId", "projectId", "version", "publishedOn", "record", "sha256"],
+        "required": ["recordId", "projectId", "version", "publishedOn", "record", "sha256", "tag", "githubVerifiedAt"],
         "properties": {
           "recordId": { "type": "string", "minLength": 1 },
           "projectId": { "type": "string", "minLength": 1 },
           "version": { "type": "string", "minLength": 1 },
           "publishedOn": { "type": "string", "format": "date" },
           "record": { "type": "string", "minLength": 1 },
-          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "tag": { "type": "string", "minLength": 1 },
+          "githubVerifiedAt": { "type": "string", "format": "date-time" }
         }
       }
     }

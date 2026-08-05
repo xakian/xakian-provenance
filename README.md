@@ -10,6 +10,12 @@ dated public trail without publishing the source code itself.
 ## Records
 
 - [Function Morphing Laboratory v1.0.0](records/function-morphing-laboratory/v1.0.0.json)
+- [Cube Pose Boundary Lab v1.0.0](records/cube-pose-boundary-lab/v1.0.0.json)
+- [Mapping Geometry Lab v1.0.0](records/mapping-geometry-lab/v1.0.0.json)
+- [Cube Face Mapping Lab v1.0.0](records/cube-face-mapping-lab/v1.0.0.json)
+- [Three-Variable Equation Fiber Lab v1.0.0](records/three-variable-equation-fiber-lab/v1.0.0.json)
+- [Layered Function Mapping v1.0.0](records/layered-function-mapping/v1.0.0.json)
+- [Dimensional Mapping Visualizer v1.0.0](records/dimensional-mapping-visualizer/v1.0.0.json)
 - [XAKIAN homepage 2026.08.05.1](records/xakian-homepage/2026.08.05.1.json)
 
 The machine-readable list is in [`index.json`](index.json). Record files follow
@@ -31,6 +37,9 @@ The digest input is the byte stream produced by:
 ```text
 git archive --format=tar <commit>
 ```
+
+Each release record also identifies its SSH-signed Git tag, signing-key
+fingerprint, and GitHub verification time.
 
 ## Scope
 

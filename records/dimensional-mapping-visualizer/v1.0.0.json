@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "dimensional-mapping-visualizer-v1.0.0",
+  "project": { "id": "dimensional-mapping-visualizer", "title": "Dimensional Mapping Visualizer", "version": "1.0.0" },
+  "dates": { "sourceCommittedAt": "2026-08-05T10:06:33+08:00", "publishedOn": "2026-08-05", "recordedAt": "2026-08-05T05:27:57.737Z" },
+  "source": {
+    "repository": "https://github.com/xakian/spatial-point-mapping-visualizer",
+    "visibilityAtRecordTime": "private",
+    "commit": "a3d188e1f76fa9d5ee2fea08a56c5dbb4433e0a0",
+    "tree": "7770cdad3424e6e6c1ed8a619efb5d3d1f404219"
+  },
+  "contentFingerprint": { "algorithm": "sha256", "digest": "528f658ac833e97add8ebc884e75bbfceab0b46e158490aac29e10ad7bb47368", "input": "git archive --format=tar a3d188e1f76fa9d5ee2fea08a56c5dbb4433e0a0" },
+  "deployment": { "provider": "Vercel", "productionUrl": "https://dimensional-mapping-visualizer.vercel.app" },
+  "signature": { "tag": "release-v1.0.0", "format": "ssh", "keyAlgorithm": "ED25519", "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk", "githubVerified": true, "githubVerifiedAt": "2026-08-05T05:27:35Z" }
+}
