@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "curve-frontier-prototype-v0.1.1",
+  "project": {
+    "id": "curve-frontier-prototype",
+    "title": "Curve Frontier Prototype",
+    "version": "0.1.1"
+  },
+  "dates": {
+    "sourceCommittedAt": "2026-08-06T13:41:50+08:00",
+    "publishedOn": "2026-08-06",
+    "recordedAt": "2026-08-06T05:58:21.321Z"
+  },
+  "source": {
+    "repository": "https://github.com/xakian/curve-frontier-prototype",
+    "visibilityAtRecordTime": "private",
+    "commit": "3152bafd88801ea90208230e88abe19a01181bb0",
+    "tree": "78dc7fec1b45966136d31859ee39c3f8862bc3c8"
+  },
+  "contentFingerprint": {
+    "algorithm": "sha256",
+    "digest": "41b28f0fc9b2c55373bf674608a292789018901375947bdd5754514f7d9efb48",
+    "input": "git archive --format=tar 3152bafd88801ea90208230e88abe19a01181bb0"
+  },
+  "deployment": {
+    "provider": "Vercel",
+    "productionUrl": "https://curve-frontier-prototype.vercel.app",
+    "deploymentUrl": "https://curve-frontier-prototype-ochm3uygp-xakian.vercel.app",
+    "deploymentUrlNote": "Version-specific deployment URL while retained by the provider."
+  },
+  "signature": {
+    "tag": "release-v0.1.1",
+    "format": "ssh",
+    "keyAlgorithm": "ED25519",
+    "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk",
+    "githubVerified": true,
+    "githubVerifiedAt": "2026-08-06T05:57:59Z"
+  }
+}

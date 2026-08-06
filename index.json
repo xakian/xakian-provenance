@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/provenance-index-v1.schema.json",
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-06T05:24:31.598Z",
+  "updatedAt": "2026-08-06T05:58:21.321Z",
   "records": [
     {
       "recordId": "function-morphing-laboratory-v1.0.0",
@@ -102,6 +102,16 @@
       "sha256": "e2cc0628a725c9b98a198b079d8d7908454c78d9887d33cb2f90ca1cd0021a2c",
       "tag": "release-v0.1.2",
       "githubVerifiedAt": "2026-08-06T05:21:27Z"
+    },
+    {
+      "recordId": "curve-frontier-prototype-v0.1.1",
+      "projectId": "curve-frontier-prototype",
+      "version": "0.1.1",
+      "publishedOn": "2026-08-06",
+      "record": "records/curve-frontier-prototype/v0.1.1.json",
+      "sha256": "41b28f0fc9b2c55373bf674608a292789018901375947bdd5754514f7d9efb48",
+      "tag": "release-v0.1.1",
+      "githubVerifiedAt": "2026-08-06T05:57:59Z"
     }
   ]
 }
