@@ -18,6 +18,7 @@ dated public trail without publishing the source code itself.
 - [Dimensional Mapping Visualizer v1.0.0](records/dimensional-mapping-visualizer/v1.0.0.json)
 - [XAKIAN homepage 2026.08.05.1](records/xakian-homepage/2026.08.05.1.json)
 - [First Person Math Shooting Experiment v0.13.0](records/first-person-math-shooting-experiment/v0.13.0.json)
+- [Three Axis Relation Visualizer v0.1.2](records/three-axis-visualizer/v0.1.2.json)
 
 The machine-readable list is in [`index.json`](index.json). Record files follow
 [`schema/provenance-v1.schema.json`](schema/provenance-v1.schema.json).

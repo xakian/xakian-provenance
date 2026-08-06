@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "three-axis-visualizer-v0.1.2",
+  "project": {
+    "id": "three-axis-visualizer",
+    "title": "Three Axis Relation Visualizer",
+    "version": "0.1.2"
+  },
+  "dates": {
+    "sourceCommittedAt": "2026-08-06T13:21:06+08:00",
+    "publishedOn": "2026-08-06",
+    "recordedAt": "2026-08-06T05:24:31.598Z"
+  },
+  "source": {
+    "repository": "https://github.com/xakian/three-axis-visualizer",
+    "visibilityAtRecordTime": "private",
+    "commit": "635fc5701afc86fc65f0a5e4990d7f9342a6939f",
+    "tree": "c037b734f72068bcc7df8016435fb04e6e18d82c"
+  },
+  "contentFingerprint": {
+    "algorithm": "sha256",
+    "digest": "e2cc0628a725c9b98a198b079d8d7908454c78d9887d33cb2f90ca1cd0021a2c",
+    "input": "git archive --format=tar 635fc5701afc86fc65f0a5e4990d7f9342a6939f"
+  },
+  "deployment": {
+    "provider": "Vercel",
+    "productionUrl": "https://three-axis-visualizer.vercel.app",
+    "deploymentUrl": "https://three-axis-visualizer-5q483zh7e-xakian.vercel.app",
+    "deploymentUrlNote": "Version-specific deployment URL while retained by the provider."
+  },
+  "signature": {
+    "tag": "release-v0.1.2",
+    "format": "ssh",
+    "keyAlgorithm": "ED25519",
+    "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk",
+    "githubVerified": true,
+    "githubVerifiedAt": "2026-08-06T05:21:27Z"
+  }
+}
