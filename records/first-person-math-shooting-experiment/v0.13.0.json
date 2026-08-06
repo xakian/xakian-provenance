@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "first-person-math-shooting-experiment-v0.13.0",
+  "project": {
+    "id": "first-person-math-shooting-experiment",
+    "title": "First Person Math Shooting Experiment",
+    "version": "0.13.0"
+  },
+  "dates": {
+    "sourceCommittedAt": "2026-08-02T17:30:00+08:00",
+    "publishedOn": "2026-08-06",
+    "recordedAt": "2026-08-06T04:40:00.621Z"
+  },
+  "source": {
+    "repository": "https://github.com/xakian/first-person-math-shooting-experiment",
+    "visibilityAtRecordTime": "private",
+    "commit": "effdac015bed6dfb10b63397bccea20a29920d10",
+    "tree": "fba5013ec321a80b51c0e31564cf8db84f850643"
+  },
+  "contentFingerprint": {
+    "algorithm": "sha256",
+    "digest": "fb0b579b860724f76b97d330b03bffe68afe6e9af8657bfc545b3168f13e0ea3",
+    "input": "git archive --format=tar effdac015bed6dfb10b63397bccea20a29920d10"
+  },
+  "deployment": {
+    "provider": "Vercel",
+    "productionUrl": "https://first-person-math-shooting-experime.vercel.app",
+    "deploymentUrl": "https://first-person-math-shooting-experiment-76xohay2q-xakian.vercel.app",
+    "deploymentUrlNote": "Version-specific deployment URL while retained by the provider."
+  },
+  "signature": {
+    "tag": "release-v0.13.0",
+    "format": "ssh",
+    "keyAlgorithm": "ED25519",
+    "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk",
+    "githubVerified": true,
+    "githubVerifiedAt": "2026-08-06T04:39:17Z"
+  }
+}

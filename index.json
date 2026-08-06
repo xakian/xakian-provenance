@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/provenance-index-v1.schema.json",
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-05T05:27:57.737Z",
+  "updatedAt": "2026-08-06T04:40:00.621Z",
   "records": [
     {
       "recordId": "function-morphing-laboratory-v1.0.0",
@@ -82,6 +82,16 @@
       "sha256": "f94dc02613ff0062df22c56210b7ebc831e5e04e3c81b533bc50de762f58889d",
       "tag": "xakian-2026.08.05.1",
       "githubVerifiedAt": "2026-08-05T05:16:27Z"
+    },
+    {
+      "recordId": "first-person-math-shooting-experiment-v0.13.0",
+      "projectId": "first-person-math-shooting-experiment",
+      "version": "0.13.0",
+      "publishedOn": "2026-08-06",
+      "record": "records/first-person-math-shooting-experiment/v0.13.0.json",
+      "sha256": "fb0b579b860724f76b97d330b03bffe68afe6e9af8657bfc545b3168f13e0ea3",
+      "tag": "release-v0.13.0",
+      "githubVerifiedAt": "2026-08-06T04:39:17Z"
     }
   ]
 }
