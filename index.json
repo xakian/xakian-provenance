@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/provenance-index-v1.schema.json",
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-06T05:58:21.321Z",
+  "updatedAt": "2026-08-07T09:43:28.261Z",
   "records": [
     {
       "recordId": "function-morphing-laboratory-v1.0.0",
@@ -112,6 +112,16 @@
       "sha256": "41b28f0fc9b2c55373bf674608a292789018901375947bdd5754514f7d9efb48",
       "tag": "release-v0.1.1",
       "githubVerifiedAt": "2026-08-06T05:57:59Z"
+    },
+    {
+      "recordId": "math-visual-explorer-v0.1.0",
+      "projectId": "math-visual-explorer",
+      "version": "0.1.0",
+      "publishedOn": "2026-08-07",
+      "record": "records/math-visual-explorer/v0.1.0.json",
+      "sha256": "6c67f6e8088d387cc4ed180cd93184298ed5d3ebf66dca7cc778a921d56e87dc",
+      "tag": "release-v0.1.0",
+      "githubVerifiedAt": "2026-08-07T09:43:18Z"
     }
   ]
 }

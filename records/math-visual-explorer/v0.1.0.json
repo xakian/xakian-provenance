@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/provenance-v1.schema.json",
+  "schemaVersion": "1.0",
+  "recordId": "math-visual-explorer-v0.1.0",
+  "project": {
+    "id": "math-visual-explorer",
+    "title": "Math Visual Explorer",
+    "version": "0.1.0"
+  },
+  "dates": {
+    "sourceCommittedAt": "2026-08-07T14:17:45+08:00",
+    "publishedOn": "2026-08-07",
+    "recordedAt": "2026-08-07T09:43:28.261Z"
+  },
+  "source": {
+    "repository": "https://github.com/xakian/math-visual-explorer",
+    "visibilityAtRecordTime": "private",
+    "commit": "172ad2be44a21cb01dceac047ae008b99e718c36",
+    "tree": "1104d3e1fe2c336966bbf72acf983aff68a84247"
+  },
+  "contentFingerprint": {
+    "algorithm": "sha256",
+    "digest": "6c67f6e8088d387cc4ed180cd93184298ed5d3ebf66dca7cc778a921d56e87dc",
+    "input": "git archive --format=tar 172ad2be44a21cb01dceac047ae008b99e718c36"
+  },
+  "deployment": {
+    "provider": "Vercel",
+    "productionUrl": "https://math-visual-explorer.vercel.app",
+    "deploymentUrl": "https://math-visual-explorer-iee2almdy-xakian.vercel.app",
+    "deploymentUrlNote": "Version-specific deployment URL while retained by the provider."
+  },
+  "signature": {
+    "tag": "release-v0.1.0",
+    "format": "ssh",
+    "keyAlgorithm": "ED25519",
+    "keyFingerprint": "SHA256:OPCOw9oq4+cvW5LS1349gVjEBBJ0GNJWbYur/1I6LWk",
+    "githubVerified": true,
+    "githubVerifiedAt": "2026-08-07T09:43:18Z"
+  }
+}

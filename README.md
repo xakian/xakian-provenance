@@ -20,6 +20,7 @@ dated public trail without publishing the source code itself.
 - [First Person Math Shooting Experiment v0.13.0](records/first-person-math-shooting-experiment/v0.13.0.json)
 - [Three Axis Relation Visualizer v0.1.2](records/three-axis-visualizer/v0.1.2.json)
 - [Curve Frontier Prototype v0.1.1](records/curve-frontier-prototype/v0.1.1.json)
+- [Math Visual Explorer v0.1.0](records/math-visual-explorer/v0.1.0.json)
 
 The machine-readable list is in [`index.json`](index.json). Record files follow
 [`schema/provenance-v1.schema.json`](schema/provenance-v1.schema.json).
